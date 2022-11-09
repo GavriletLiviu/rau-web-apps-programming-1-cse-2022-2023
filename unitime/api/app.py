@@ -7,20 +7,20 @@ from trades import Trade
 from data import connect, get_all_courses
 
 coursesdb = [
-    Course(name="Course 1", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="D:\\Luchici - Web Apps 1 - 2022 - 2023\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course1.jpg"),
-    Course(name="Course 2", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="D:\\Luchici - Web Apps 1 - 2022 - 2023\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course2.jpg"),
-    Course(name="Course 3", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="D:\\Luchici - Web Apps 1 - 2022 - 2023\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course1.jpg"),
-    Course(name="Course 4", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="D:\\Luchici - Web Apps 1 - 2022 - 2023\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course2.jpg"),
-    Course(name="Course 5", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="D:\\Luchici - Web Apps 1 - 2022 - 2023\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course1.jpg"),
-    Course(name="Course 6", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="D:\\Luchici - Web Apps 1 - 2022 - 2023\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course2.jpg")
+    Course(name="Course 1", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="C:\\Users\\liviu\\Documents\\CURSURI\\YEAR 3\\YEAR 3 Sem 1\\Module1\\Web Applications Programming\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course1.jpg"),
+    Course(name="Course 2", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="C:\\Users\\liviu\\Documents\\CURSURI\\YEAR 3\\YEAR 3 Sem 1\\Module1\\Web Applications Programming\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course2.jpg"),
+    Course(name="Course 3", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="C:\\Users\\liviu\\Documents\\CURSURI\\YEAR 3\\YEAR 3 Sem 1\\Module1\\Web Applications Programming\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course3.jpg"),
+    Course(name="Course 4", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="C:\\Users\\liviu\\Documents\\CURSURI\\YEAR 3\\YEAR 3 Sem 1\\Module1\\Web Applications Programming\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course4.jpg"),
+    Course(name="Course 5", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="C:\\Users\\liviu\\Documents\\CURSURI\\YEAR 3\\YEAR 3 Sem 1\\Module1\\Web Applications Programming\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course5.jpg"),
+    Course(name="Course 6", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="C:\\Users\\liviu\\Documents\\CURSURI\\YEAR 3\\YEAR 3 Sem 1\\Module1\\Web Applications Programming\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course6.jpg")
 
 ]
 
 tradesdb = [
-    Trade(name="Trade 1", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="D:\\Luchici - Web Apps 1 - 2022 - 2023\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course1.jpg"),
-    Trade(name="Trade 2", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="D:\\Luchici - Web Apps 1 - 2022 - 2023\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course2.jpg"),
-    Trade(name="Trade 1", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="D:\\Luchici - Web Apps 1 - 2022 - 2023\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course1.jpg"),
-    Trade(name="Trade 2", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="D:\\Luchici - Web Apps 1 - 2022 - 2023\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course2.jpg")
+    Trade(name="Trade 1", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="C:\\Users\\liviu\\Documents\\CURSURI\\YEAR 3\\YEAR 3 Sem 1\\Module1\\Web Applications Programming\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course2.jpg"),
+    Trade(name="Trade 2", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="C:\\Users\\liviu\\Documents\\CURSURI\\YEAR 3\\YEAR 3 Sem 1\\Module1\\Web Applications Programming\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course4.jpg"),
+    Trade(name="Trade 1", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="C:\\Users\\liviu\\Documents\\CURSURI\\YEAR 3\\YEAR 3 Sem 1\\Module1\\Web Applications Programming\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course5.jpg"),
+    Trade(name="Trade 2", url="https://www.coursera.org/learn/financial-markets-global", path_to_image="C:\\Users\\liviu\\Documents\\CURSURI\\YEAR 3\\YEAR 3 Sem 1\\Module1\\Web Applications Programming\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\assets\\course6.jpg")
 ]
 
 app = Flask("unitime")

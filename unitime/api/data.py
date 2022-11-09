@@ -3,7 +3,7 @@ import sqlite3
 from courses import Course
 
 def connect():
-    conn = sqlite3.connect("D:\\Luchici - Web Apps 1 - 2022 - 2023\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\database\\unitime.db")
+    conn = sqlite3.connect("C:\\Users\\liviu\\Documents\\CURSURI\\YEAR 3\\YEAR 3 Sem 1\\Module1\\Web Applications Programming\\rau-web-apps-programming-1-cse-2022-2023\\unitime\\database\\unitime.db")
     return conn 
 
 def get_all_courses(conn):
