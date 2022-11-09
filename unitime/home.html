@@ -70,27 +70,23 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="course-grid">
                         <div class="course-grid-child">
                             <p style="text-align:center">Trade</p>
                         </div>
                         <!-- This is the preview of the trades -->
                         <div class="course-grid-child">
-                            <div class="course-items-grid">
+                            <div id="trades-list" class="course-items-grid">
                                 <div class="course-items-grid-child">
-                                    <img src="assets/left-arrow.png">
+                                    <button onclick="moveLeft()">
+                                        <img src="assets/left-arrow.png">
+                                    </button>
                                 </div>
                                 <div class="course-items-grid-child">
-                                    <a href="individual-item.html"><img src="assets/iphone.jpg"></a>
-                                </div>
-                                <div class="course-items-grid-child">
-                                    <a href="individual-item.html"><img src="assets/iphone.jpg"></a>
-                                </div>
-                                <div class="course-items-grid-child">
-                                    <a href="individual-item.html"><img src="assets/iphone.jpg"></a>
-                                </div>
-                                <div class="course-items-grid-child">
-                                    <img src="assets/right-arrow.png">
+                                    <button onclick="moveRight()">
+                                        <img src="assets/right-arrow.png">
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -132,7 +128,12 @@
         <script src="javascript-dom.js"></script>
 =======
 
+<<<<<<< HEAD
         <script src="js/home.js"></script>
 >>>>>>> 3f56d1247babff3f0fd26c0105b612c27ec7bdd9
+=======
+        <script src="js/home-courses.js"></script>
+        <script src="js/home-trades.js"></script>
+>>>>>>> 95fdab1e84625b532ece5e7bff90d7c5d945bada
     </body>
 </html>
